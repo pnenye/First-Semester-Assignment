@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: #f5edea;
+    width:100%;
+    height:100vh;
+    margin-top:2rem
+}
+
+.main-container{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 23px 13%;
+    transition: all .40s ease;
+}
+
+.container{
+    display: flex;
+}
+.container li a{
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'quicksand';
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+}
+.container li .special{
+    color: blue;
+}
+.main-container p a{
+    color: blue;
+}
+.main-container .btn-actn{
+    display: flex;
+}
+.main-container .btn-actn p{
+    padding-right: 30px;
+    padding-top: 12px;
+}
+
+.main-container .btn-actn .btn{
+    width: Fixed (142px);
+    height: Fixed (44px);
+    padding: 12px 24px 12px 24px;
+    border-radius: 100px; 
+    gap: 10px;
+    background-color: #0065FE;
+    color: white;
+    font-size: 16px;
+    line-height: 12px;
+    border: none;
+}
+.header1{
+    margin-top: 150px;
+    padding: 50px;
+    text-align: center;
+}
+.header1 h2{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    align-items: center;
+    line-height: 96px;
+}
+.header1 p{
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    align-items: center;
+    line-height: 96px;
+}
+.header1 span{
+    color: blue;
+}
+
+.header1 .info{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    line-height: 18px;
+    padding-top: 20px;
+    font-family: 'quicksand';
+    margin-top: 20px;
+}
+.header1-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header1-btn .btn{
+    width: Fixed (180px);
+    height: Fixed (44px);
+    padding: 15px 34px 15px 34px;
+    border-radius: 100px; 
+    gap: 10px;
+    background-color: #0065FE;
+    color: white;
+    font-size: 16px;
+    line-height: 12px;
+    border: none;
+    margin-right: 50px;
+    font-family: 'quicksand';
+    font-weight: 700;
+}
+.header1-btn p{
+    font-size: 16px;
+    color: #0065fe;
+    font-family: 'quicksand';
+    font-weight: 700;
+    cursor: pointer;
+}
+.header2 img{
+    width: 238px;
+    height: 251px;
+    top: 730px;
+    margin-left: 469px;
+}
+.header2 .shape{
+    position: relative;
+    top: -230px;
+    left: 461px;
+    width: 768px;
+    height: 204px;
+    background-image: linear-gradient(to right, #E2E9F0 , #ffff);
+    border: 1px solid #88b0ec;
+    border-radius: 24px;
+    gap: 16px;
+}
+.header2 .shape img{
+   margin-right: 20px;
+}
+.header3 .rectangle{
+    width: 1440px;
+    height: 93px;
+    margin-left: 40px;
+}
+.header3 .ellipse{
+    width: 956px;
+    height: 49px;
+    top: -70px;
+    margin-left: 316px;
+    position: relative;
+}
+
+.header4{
+    display: flex;
+    background-color: #f9fbfd;
+    margin-top: -56px;
+    padding-bottom: 50px;
+}
+
+.before-list{
+    margin-right: 50px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.before-list h3{
+    color: black;
+    overflow-wrap: break-word;
+    font-family: 'quicksand';
+    font-size: 36px;
+    font-weight: 800;
+}
+.before-list h3 span{
+    color: #0065FE;
+    font-family: 'quicksand';
+}
+
+.banner-icon{
+display: flex;
+margin-top: 50px;
+}
+
+.banner-icon #list{
+    padding-left: 50px;
+}
+.banner-icon #list h3{
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'quicksand';
+}
+
+.banner-icon #list p{
+    color: black;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.header5{
+    margin-top: 30px;
+}
+
+.header5 .why{
+    display: flex;
+    margin-left: 100px;
+}
+.header5 .why h4{
+    color: black;
+    font-weight: 700;
+    font-size: 34px;
+    padding-left: 20px;
+}
+.header5 .why h4 span{
+    color: #0065FE;
+}
+.why-container{
+    margin-right: 120px;
+}
+
+
+.header5 .why-container p{
+    overflow-wrap: break-word;
+    inline-size: 360px;
+    color: black;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 17px;
+    word-wrap: break-word;
+    font-family: 'quicksand';
+}
+
+.gen-container{
+    display: flex;
+}
+
+.gen-container .feat{
+    display: flex;
+}
+
+.feat .feat-list h4{
+    color: black;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+
+.feat .feat-list p{
+    color: black;
+    font-family: 'quicksand';
+    font-size: 20px;
+}
+
+.feat .feat-list{
+    margin-left: 50px;
+}
+.payment .pym-info{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.payment .pym-info h4{
+    margin-left: 20px;
+    font-size: 42px;
+    font-weight: 600;
+    color: black;
+}
+.payment .pym-info h4 span{
+    color: blue;
+}
+.payment p{
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'quicksand';
+    font-weight: 500;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.payment-options .payment-types{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.payment-options #payment-opA{
+    position: relative;
+    left: 181px;
+    width: 368px;
+    height: 430px;
+    background-image: #fff;
+    border: 1px solid #88b0ec;
+    border-radius: 24px;
+    gap: 16px;
+}
+
+.payment-options #payment-opB{
+    position: relative;
+    left: 461px;
+    width: 368px;
+    height: 430px;
+    background-image: #fff;
+    border: 1px solid #88b0ec;
+    border-radius: 24px;
+    gap: 16px;
+}
+
+.payment-options #payment-opC{
+    position: relative;
+    right: 241px;
+    width: 368px;
+    height: 504px;
+    background-image: #1e3448;
+    border: 1px solid #88b0ec;
+    border-radius: 24px;
+    gap: 16px;
+}
